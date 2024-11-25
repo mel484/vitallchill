@@ -1,0 +1,103 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #0073e6; /* Azul más profesional */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #005bb5; /* Azul oscuro para contraste */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Amarillo dorado para resaltar */
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    text-align: left; /* Mejor alineación para textos largos */
+    max-width: 800px;
+    margin: 0 auto; /* Centrar contenido */
+}
+
+/* Listas */
+ul {
+    list-style-type: none; /* Sin puntos */
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #fff; /* Fondo blanco para separación */
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Imágenes */
+img {
+    max-width: 100%; /* Asegura que las imágenes sean adaptables */
+    height: auto;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px; /* Bordes redondeados para un mejor diseño */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h2 {
+    color: #e91e63; /* Rosa vivo */
+    margin: 10px 0;
+    font-family: 'Georgia', serif; /* Elegante y legible */
+    font-size: 1.8rem;
+}
+
+/* Pie de página */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
